@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^getall/?$ ./api/api_getall_diaryfood.php [NC,L]
+RewriteRule ^insert/?$ ./api/api_insert_diaryfood.php [NC,L]
+RewriteRule ^update/?$ ./api/api_update_diaryfood.php [NC,L]
+RewriteRule ^delete/?$ ./api/api_delete_diaryfood.php [NC,L]
